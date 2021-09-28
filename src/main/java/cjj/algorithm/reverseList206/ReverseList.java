@@ -1,5 +1,7 @@
 package cjj.algorithm.reverseList206;
 
+import cjj.algorithm.ListNode;
+
 public class ReverseList {
     private static ListNode next = null;
 
@@ -96,19 +98,3 @@ public class ReverseList {
 }
 
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-}
